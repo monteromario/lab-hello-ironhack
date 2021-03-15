@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #fff;
 }
 
 .App-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: #fff;
 }
 
 .App-link {
@@ -35,4 +36,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Container {
+  margin: 24px;
+  background-color: #1f2635;
+}
+
+.Top {
+  padding: 24px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main {
+  padding: 24px 48px;
+  max-width: 500px;
+  color: white;
+  text-align: left;
+  margin-bottom: 72px;
+}
+
+.Main h1 {
+  font-size: 78px;
+  margin-bottom: 0px;
+}
+
+.Main p {
+  margin-top: 12px;
+  margin-bottom: 72px;
+  font-weight: lighter;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+.Main span {
+  margin-top: 24px;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 24px;
+  background-color: #fff;
+  color: #1f2635;
+  border-radius: 12px;
+}
+
+.Links {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 36px;
+  padding-top: 72px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.Links img {
+  height: 150px;
+}
+
+.Links h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 24px;
+}
+
+.Links p {
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 0px 24px;
 }
